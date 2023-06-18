@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cardWrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 52vh;
+    width: 22.5vw;
+    left: 40px;
+    border-radius: 10px;
+    background-color:#1D1F25;;
+}
+
+.imageContainer{
+    position: relative;
+    height: 200px;
+    width: 325px;
+}
+.catContainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items:center;
+    color: white;
+    
+
+}
+.catContainer .cat{
+    height: 21px;
+    width: 125px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 8px;
+    text-align: left;
+    color: #FFBB29;
+
+}
+
+.catContainer .timespan{
+    position: relative;
+    height: 21px;
+    width: 83px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    float: right;
+}
+
+.titleContainer{
+    align-items: flex-start;
+    position: relative;
+    margin-left: 13px;
+    height: 58px;
+    width: 293px;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0px;
+    border-radius: nullpx;
+    color: #FFFFFF;
+    left:21px;
+
+}
+.titleContainer .desc{
+    height: 66px;
+    width: 296px;
+    border-radius: nullpx;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    top:5px;
+    color:#B5B5BE  !important; 
+}
+
+.readMore{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    
+}
+
+.readMore a{
+    height: 21px;
+    width: 76px;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #FFBB29;
+
+}
+
+.arrow{
+    color: #FFBB29;
+    
+}

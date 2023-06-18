@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+.main-wrapper{
+    width:100%;
+    height: 318px;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    background-color: #1D1F25;
+}
+.section1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 103px;
+    width:100%;
+
+}
+.section2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 215px;
+    width: 100%;
+   
+}
+.companyName{
+    position: relative;
+    height: 32px;
+    width: 193px;
+    padding-right: 20px;
+    top: 36px;
+    border-radius: nullpx;
+
+}
+.companyName p{
+    color: #FFBB29;
+    line-height: 29.52px;
+    
+}
+ul{
+    position: relative;
+    top: 41px;
+}
+ul li{
+    position: relative;
+    display: inline;
+    height: 21px;
+    width: 42px;
+    border-radius: nullpx;
+    margin-left:40px;
+    color:#FFFFFF
+}
+
+.profileSection{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: right;
+    justify-items: center;
+
+}
+
+.section2 .text{
+    position: relative;
+    height: 60px;
+    width: 778px;
+    left: 40px;
+    border-radius: nullpx;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:white;
+}
+.searchSection{
+    position: relative;
+    height: 45px;
+    width: 448px;
+    background-color: #282C38;
+    border-radius: 6px;
+    left:40px;
+    top:40px;
+}
+.searchBar{
+    position: relative;
+    height: 45px;
+    background-color: #282C38;
+    border-radius: 6px;
+    width:350px;
+}
