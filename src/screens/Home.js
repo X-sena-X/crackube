@@ -49,7 +49,7 @@ const HomePage = ()=> {
                     time="2 hours ago"/>
                 </Grid>
                 <Grid xs={7} sm={5} md={3}>
-                    <CourseCard category="SPORT" images={image3} title="All things are difficult before they are easy" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
+                    <CourseCard category= "SPORT" images={image3} title="All things are difficult before they are easy" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
                     time="2 hours ago"/>
                 </Grid>
                 <Grid xs={7} sm={5} md={3}>
