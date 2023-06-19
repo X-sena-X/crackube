@@ -10,6 +10,11 @@
     display: flex;
     flex-direction: column;
     background-color: #1D1F25;
+    z-index: 100;
+    top:0;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
 }
 .section1{
     position: relative;
@@ -51,6 +56,7 @@
 ul{
     position: relative;
     top: 41px;
+    cursor: pointer;
 }
 ul li{
     position: relative;
@@ -62,6 +68,9 @@ ul li{
     color:#FFFFFF
 }
 
+.sectionList li:hover{
+    color: #FFBB29;
+}
 .sectionList .blog{
     color:#FFBB29;
 }
@@ -75,21 +84,31 @@ ul li{
     justify-content: space-between;
     margin-left: 50vw;
     top: 41px;
+    cursor: pointer;
 
 }
 .profileSection .Icon{
+    position: relative;
     color: white;
-
-   
+    
 }
 
 .profileSection .profilePhoto{
+    position: relative;
     height: 40px;
     width: 40px;
     border-radius: 21.5px;
+    bottom: 8px;
 
 }
-
+.NotificationCount{
+    position: relative;
+    width:5px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: red;
+    left: -27px;
+}
 .breaker{
     height: 0px;
     width: 1440px;
@@ -144,15 +163,26 @@ ul li{
     position: relative;
     display: flex;
     flex-direction: row;
-    margin-left: 61vw;
+    margin-left: 59vw;
+    justify-content: space-between;
 }
 
 .sortIcon .Icon{
     position: relative;
-    display: inline;
-    height: 8.5px;
-    width: 8.5px;
-    left:20px;
+    display: grid;
+    height: 43px;
+    width: 43px;
+    border-radius: 5px;
     background-color: #282C38;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9px;
+    text-align: center;
+
 }
+.sortIcon .Icon:hover{
+    background-color: #FFBB29;
+    color: #FFFFFF;
+}
+
 

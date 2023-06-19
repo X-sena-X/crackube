@@ -4,6 +4,8 @@ import CourseCard from '../Components/courseCard';
 import Grid from '@mui/material/Unstable_Grid2';
 
 const HomePage = ()=> {
+    
+    
     return(
         <div className='mainWrapper'>
             <div className="categories">
@@ -34,20 +36,20 @@ const HomePage = ()=> {
             
             
             <Grid container rowSpacing={4} columnSpacing={0.2} className="couseGrid" disableEqualOverflow>
-                <Grid xs={5} sm={4} md={3}>
-                    <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
+                <Grid xs={7} sm={5} md={3}>
+                    <CourseCard category="Financial" images="../Assests/Rectangle1073.png" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
                     time="2 hours ago"/>
                 </Grid>
-                <Grid xs={5} sm={4} md={3}>
-                    <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
+                <Grid xs={7} sm={5} md={3}>
+                    <CourseCard category="Financial" images="../Assests/Rectangle1075.png" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
                     time="2 hours ago"/>
                 </Grid>
-                <Grid xs={5} sm={4} md={3}>
-                    <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
+                <Grid xs={7} sm={5} md={3}>
+                    <CourseCard category="Financial" images="../Assests/Rectangle1077.png" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
                     time="2 hours ago"/>
                 </Grid>
-                <Grid xs={5} sm={4} md={3}>
-                    <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
+                <Grid xs={7} sm={5} md={3}>
+                    <CourseCard category="Financial" images="../Assests/Rectangle1079.png" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
                     time="2 hours ago"/>
                 </Grid>
                 <Grid xs={5} sm={4} md={3}>

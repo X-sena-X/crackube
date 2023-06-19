@@ -1,9 +1,13 @@
 import React from 'react';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import './CSS/courseCard.css';
+function click (e){
+    e.preventDefault();
+}
 export default function CourseCard(props){
-    let image = `url(${props.images})`
     let { category,images,title,description,time} = props
+    let image = `url(${images})`
+    
 
     return(
         <div className='cardWrapper'>
@@ -19,7 +23,7 @@ export default function CourseCard(props){
                 <p className='desc'>{description}</p>
             </div>
             <div className="readMore">
-                <a href="#">Read me</a>
+                <a href="#" onClick={click}>Read me</a>
                 <ArrowForwardIcon className='arrow'/>
             </div>
         </div>

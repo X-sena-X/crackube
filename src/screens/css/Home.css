@@ -12,6 +12,7 @@
     width:100%;
     height: fit-content;
     overflow-x: hidden;
+    z-index: 0;
 }
 .categories{
     position:relative;
@@ -26,7 +27,7 @@ ul li{
     
 }
 
-ul li:hover {
+.categories ul li:hover {
     color: #000;
 }
 .categoryName{
@@ -39,6 +40,9 @@ ul li:hover {
     border-radius: 55px;
     margin-right: -20px;
     background-color: #1D1F25;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
 }
 
 .categoryName:hover{

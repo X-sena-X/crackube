@@ -7,7 +7,7 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import SortIcon from '@mui/icons-material/Sort';
 import WidgetsIcon from '@mui/icons-material/Widgets';
-
+import profilelogo from '../Assests/profile.png';
 const Navbar= ()=> {
     
     return(
@@ -36,8 +36,8 @@ const Navbar= ()=> {
                 <div className="profileSection">
                     <SettingsIcon className='Icon'/>
                     <NotificationsIcon className='Icon'/>
-                    <div className='NotificationSign'></div>
-                    <img className='profilePhoto' src="dfdsf"/>
+                    <div className='NotificationCount'></div>
+                    <img className='profilePhoto' src={profilelogo}/>
 
                 </div>
             </div>
