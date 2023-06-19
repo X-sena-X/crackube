@@ -46,7 +46,7 @@ const Navbar= ()=> {
                 <div className='text'>We tackle interesting topics every day</div>
                 <div className="searchSection">
                     <div className= 'searchClass'>
-                        <IconButton type="button" sx={{ p: '10px',color:'yellow' }} aria-label="search">
+                        <IconButton type="button" sx={{ p: '10px',color:'#757B8C' }} aria-label="search">
                             <SearchIcon className='SerachIcon' />
                         </IconButton>
                         <InputBase

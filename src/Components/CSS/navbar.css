@@ -108,6 +108,7 @@ ul li{
     border-radius: 2px;
     background-color: red;
     left: -27px;
+    border: #FFFFFF 1px solid;
 }
 .breaker{
     height: 0px;
