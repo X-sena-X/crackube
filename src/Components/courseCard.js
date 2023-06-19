@@ -13,7 +13,7 @@ export default function CourseCard(props){
     return(
         <div className='cardWrapper'>
             <div className="imageContainer">
-                <img src= {props.images} alt="#"/>
+                <img src= {images} alt="#"/>
             </div>
             <div className='catContainer'>
                 <p className="cat">{category}</p>
@@ -24,7 +24,7 @@ export default function CourseCard(props){
                 <p className='desc'>{description}</p>
             </div>
             <div className="readMore">
-                <a href="#" onClick={click}>Read me</a>
+                <a href="#" onClick={click}>Read more</a>
                 <ArrowForwardIcon className='arrow'/>
             </div>
         </div>

@@ -48,10 +48,7 @@
     font-size: 24px;
     font-weight: 600;
     line-height: 30px;
-    letter-spacing: 0em;
-    
-
-    
+    letter-spacing: 0em;    
 }
 ul{
     position: relative;
@@ -65,7 +62,8 @@ ul li{
     width: 42px;
     border-radius: nullpx;
     margin-left:40px;
-    color:#FFFFFF
+    color:#FFFFFF;
+    
 }
 
 .sectionList li:hover{
@@ -129,7 +127,7 @@ ul li{
     font-size: 40px;
     font-weight: 600;
     line-height: 60px;
-    letter-spacing: 0em;
+    letter-spacing: 0.5px;
     text-align: left;
     color:white;
 }
@@ -185,5 +183,7 @@ ul li{
     background-color: #FFBB29;
     color: #FFFFFF;
 }
+
+
 
 
