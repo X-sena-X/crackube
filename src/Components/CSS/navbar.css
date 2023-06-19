@@ -17,7 +17,6 @@
     flex-direction: row;
     height: 103px;
     width:100%;
-
 }
 .section2{
     position: relative;
@@ -34,11 +33,19 @@
     padding-right: 20px;
     top: 36px;
     border-radius: nullpx;
+    left:29px;
 
 }
 .companyName p{
     color: #FFBB29;
     line-height: 29.52px;
+    font-family: Clash Display;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    
+
     
 }
 ul{
@@ -55,16 +62,43 @@ ul li{
     color:#FFFFFF
 }
 
+.sectionList .blog{
+    color:#FFBB29;
+}
+
 .profileSection{
     position: relative;
+    width: 10vw;
+    height: fit-content;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    text-align: right;
-    justify-items: center;
+    justify-content: space-between;
+    margin-left: 50vw;
+    top: 41px;
+
+}
+.profileSection .Icon{
+    color: white;
+
+   
+}
+
+.profileSection .profilePhoto{
+    height: 40px;
+    width: 40px;
+    border-radius: 21.5px;
 
 }
 
+.breaker{
+    height: 0px;
+    width: 1440px;
+    border-radius: 0px;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    opacity:15% ;
+
+}
 .section2 .text{
     position: relative;
     height: 60px;
@@ -81,12 +115,21 @@ ul li{
 }
 .searchSection{
     position: relative;
+    display: flex;
+    flex-direction: row;
     height: 45px;
     width: 448px;
-    background-color: #282C38;
+    justify-content: space-between;
     border-radius: 6px;
     left:40px;
     top:40px;
+}
+.searchClass{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: #282C38;
+    border-radius: 6px;
 }
 .searchBar{
     position: relative;
@@ -94,4 +137,22 @@ ul li{
     background-color: #282C38;
     border-radius: 6px;
     width:350px;
+
 }
+
+.sortIcon{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 61vw;
+}
+
+.sortIcon .Icon{
+    position: relative;
+    display: inline;
+    height: 8.5px;
+    width: 8.5px;
+    left:20px;
+    background-color: #282C38;
+}
+

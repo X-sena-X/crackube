@@ -33,36 +33,36 @@ const HomePage = ()=> {
             </div>
             
             
-            <Grid container spacing={0.5} className="couseGrid">
-                <Grid xs={3}>
+            <Grid container rowSpacing={4} columnSpacing={0.2} className="couseGrid" disableEqualOverflow>
+                <Grid xs={5} sm={4} md={3}>
                     <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
                     time="2 hours ago"/>
                 </Grid>
-                <Grid xs={3}>
+                <Grid xs={5} sm={4} md={3}>
                     <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
                     time="2 hours ago"/>
                 </Grid>
-                <Grid xs={3}>
+                <Grid xs={5} sm={4} md={3}>
                     <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
                     time="2 hours ago"/>
                 </Grid>
-                <Grid xs={3}>
+                <Grid xs={5} sm={4} md={3}>
                     <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
                     time="2 hours ago"/>
                 </Grid>
-                <Grid xs={3}>
+                <Grid xs={5} sm={4} md={3}>
                     <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
                     time="2 hours ago"/>
                 </Grid>
-                <Grid xs={3}>
+                <Grid xs={5} sm={4} md={3}>
                     <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
                     time="2 hours ago"/>
                 </Grid>
-                <Grid xs={3}>
+                <Grid xs={5} sm={4} md={3}>
                     <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
                     time="2 hours ago"/>
                 </Grid>
-                <Grid xs={3}>
+                <Grid xs={5} sm={4} md={3}>
                     <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
                     time="2 hours ago"/>
                 </Grid>
@@ -72,23 +72,3 @@ const HomePage = ()=> {
     )
 }
 export default HomePage;
-/*
-<div className='CourseHolder'>
-                <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
-                 time="2 hours ago"/>
-                <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
-                 time="2 hours ago"/>
-                <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
-                 time="2 hours ago"/>
-                <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
-                 time="2 hours ago"/>
-                <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
-                 time="2 hours ago"/>
-                <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
-                 time="2 hours ago"/>
-                <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
-                 time="2 hours ago"/>
-                <CourseCard category="Financial" title="Changing people's lifestyles for the better" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"
-                 time="2 hours ago"/>
-                
-            </div> */

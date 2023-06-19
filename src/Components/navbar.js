@@ -5,6 +5,8 @@ import SearchIcon from '@mui/icons-material/Search';
 import IconButton from '@mui/material/IconButton';
 import SettingsIcon from '@mui/icons-material/Settings';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+import SortIcon from '@mui/icons-material/Sort';
+import WidgetsIcon from '@mui/icons-material/Widgets';
 
 const Navbar= ()=> {
     
@@ -32,25 +34,34 @@ const Navbar= ()=> {
                     </li>
                 </ul>
                 <div className="profileSection">
-                    <SettingsIcon/>
-                    <NotificationsIcon/>
+                    <SettingsIcon className='Icon'/>
+                    <NotificationsIcon className='Icon'/>
                     <div className='NotificationSign'></div>
                     <img className='profilePhoto' src="dfdsf"/>
 
                 </div>
             </div>
+            <div className='breaker'></div>
             <div className="section2">
                 <div className='text'>We tackle interesting topics every day</div>
-                <div className= 'searchSection'>
-                    <IconButton type="button" sx={{ p: '10px' }} aria-label="search">
-                        <SearchIcon className='SerachIcon' />
-                    </IconButton>
-                    <InputBase
-                        sx={{ ml: 1, flex: 1 }}
-                        placeholder="Find Courses"
-                        inputProps={{ 'poppins': 'Find Courses' ,color:"#757B8C"}}
-                        className='searchBar'
-                    />
+                <div className="searchSection">
+                    <div className= 'searchClass'>
+                        <IconButton type="button" sx={{ p: '10px',color:'yellow' }} aria-label="search">
+                            <SearchIcon className='SerachIcon' />
+                        </IconButton>
+                        <InputBase
+                            sx={{ ml: 1, flex: 1,"& input": {
+                                color: 'white', }}}
+                            
+                            placeholder="Find Courses "
+                            inputProps={{ 'poppins': 'Find Courses' ,color:"#757B8C"}}
+                            className='searchBar'
+                        />
+                    </div>
+                    <div className="sortIcon">
+                        <div className="Icon"> <SortIcon sx={{ color:'white' }}/></div>
+                        <div className="Icon"> <WidgetsIcon sx={{ color:'white' }}/></div>   
+                    </div>
 
                 </div>
             </div>

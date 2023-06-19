@@ -7,12 +7,12 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 52vh;
-    width: 22vw;
-    left:30px;
-    margin-right: -5px;
+    height: 420px;
+    width: 310px;
+    left: 20px;
     border-radius: 10px;
-    background-color:#1D1F25;;
+    background-color:#1D1F25;
+    overflow-x: hidden;
 }
 
 .imageContainer{
@@ -24,8 +24,7 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    justify-items:center;
+    justify-content: space-between;
     color: white;
     
 
@@ -38,8 +37,9 @@
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 8px;
-    text-align: left;
+    margin-left: 13px;
     color: #FFBB29;
+    
 
 }
 
@@ -71,7 +71,7 @@
     letter-spacing: 0px;
     border-radius: nullpx;
     color: #FFFFFF;
-    left:21px;
+    
 
 }
 .titleContainer .desc{
@@ -92,8 +92,9 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    text-align: left;
-    
+    top:70px;
+    cursor: pointer;
+    width: fit-content;
 }
 
 .readMore a{
