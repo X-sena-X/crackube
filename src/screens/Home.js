@@ -14,7 +14,7 @@ const HomePage = ()=> {
         <div className='mainWrapper'>
             <div className="categories">
                 <ul className='categoryUL'>
-                    <li className='categoryName'>
+                    <li className='categoryName all' >
                         All
                     </li>
                     <li className='categoryName'>

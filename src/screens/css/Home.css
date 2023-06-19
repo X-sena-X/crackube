@@ -49,9 +49,19 @@
    
      
 }
+.all{
+    background-color: #FFBB29 !important;
+   color:black;
+}
 
 .categoryName:hover{
     background-color: #FFBB29;
+    transition: ease-in-out .5s;
+}
+
+ul:hover .all{
+    background-color: #1D1F25 !important;
+    color:#ffff;
 }
 
 .courseContainer{
