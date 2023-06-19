@@ -8,7 +8,7 @@
 }
 .main-wrapper{
     width:100%;
-    height: 250px;
+    height: 283px;
     position: sticky;
     display: flex;
     flex-direction: column;
@@ -30,8 +30,9 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 215px;
+    height: 180px;
     width: 100%;
+    top:12px;
    
 }
 .companyName{
@@ -58,7 +59,7 @@
 }
 ul{
     position: relative;
-    top: 41px;
+    top: 39px;
     cursor: pointer;
 }
 ul li{
