@@ -1,18 +1,19 @@
 import React from 'react';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import './CSS/courseCard.css';
+
 function click (e){
     e.preventDefault();
 }
 export default function CourseCard(props){
     let { category,images,title,description,time} = props
-    let image = `url(${images})`
+    
     
 
     return(
         <div className='cardWrapper'>
             <div className="imageContainer">
-                <img src= {image} />
+                <img src= {props.images} alt="#"/>
             </div>
             <div className='catContainer'>
                 <p className="cat">{category}</p>
