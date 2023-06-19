@@ -22,8 +22,11 @@
     float:left;
 }
 
-ul li{
-    margin-right:-20px;
+
+.categoryUL{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
     
 }
 
@@ -32,27 +35,44 @@ ul li{
 }
 .categoryName{
     position: relative;
-    height: 50px;
+    height: 25px;
     width: fit-content;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 55px;
-    margin-right: -20px;
+    margin-right: -10px;
     background-color: #1D1F25;
     -webkit-user-select: none; 
     -ms-user-select: none; 
-    user-select: none; 
+    user-select: none;
+   
+     
 }
 
 .categoryName:hover{
     background-color: #FFBB29;
 }
 
-.CourseHolder{
+.courseContainer{
+    position: relative;
     width: 100%;
     height: fit-content;
-    display: flex;
-    flex-direction: row;
+    align-self: flex-start;
+    margin-left:10px;
+}
+
+@media (max-width: 1170px){
+    .courseContainer{
+        margin-top:35px;
+    }
+}
+
+@media (max-width: 600px){
+    .courseContainer{
+        margin-top:70px;
+        align-self: center;
+        justify-self: center;
+    }
 
 }

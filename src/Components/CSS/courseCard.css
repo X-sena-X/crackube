@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
@@ -46,6 +49,7 @@
     letter-spacing: 8px;
     margin-left: 13px;
     color: #FFBB29;
+    white-space: pre;
     
 }
 
@@ -61,6 +65,7 @@
     text-align: left;
     color: #FFFFFF;
     float: right;
+    right: 5px;
 }
 
 .titleContainer{
@@ -99,9 +104,12 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    top:70px;
+    top:80px;
     cursor: pointer;
     width: fit-content;
+    height: 21px;
+    align-items: flex-start;
+    
 }
 
 .readMore a{
@@ -114,8 +122,12 @@
     line-height: 21px;
     letter-spacing: 0px;
     color: #FFBB29;
+    white-space: pre;
+    margin-left:13px;
+    
 }
 
 .arrow{
     color: #FFBB29;
+
 }

@@ -60,7 +60,7 @@ const Navbar= ()=> {
                     </div>
                     <div className="sortIcon">
                         <div className="Icon"> <SortIcon sx={{ color:'white' }}/></div>
-                        <div className="Icon"> <WidgetsIcon sx={{ color:'white' }}/></div>   
+                        <div className="Icon2"> <WidgetsIcon sx={{ color:'white' }}/></div>   
                     </div>
 
                 </div>
