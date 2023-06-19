@@ -42,3 +42,11 @@ ul li{
 .categoryName :hover{
     user-select: none;
 }
+
+.CourseHolder{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+
+}

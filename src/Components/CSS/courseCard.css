@@ -8,8 +8,9 @@
     display: flex;
     flex-direction: column;
     height: 52vh;
-    width: 22.5vw;
-    left: 40px;
+    width: 22vw;
+    left:30px;
+    margin-right: -5px;
     border-radius: 10px;
     background-color:#1D1F25;;
 }
